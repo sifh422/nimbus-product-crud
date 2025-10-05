@@ -1,0 +1,34 @@
+{
+  "name": "nimbus-product-crud",
+  "version": "1.0.0",
+  "description": "Nimbus - Title CRUD Operations for Product Database Using Mongoose",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node src/seed.js",
+    "lint": "echo 'no linter configured'"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongodb",
+    "crud",
+    "nimbus"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.6.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
+
